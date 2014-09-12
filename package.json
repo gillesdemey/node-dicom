@@ -1,0 +1,15 @@
+{
+  "name": "node-dicom",
+  "version": "0.1.0",
+  "description": "Node.js DICOM file parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "dicom",
+    "medical"
+  ],
+  "author": "Gilles De Mey <gilles.de.mey@gmail.com>",
+  "license": "MIT"
+}
