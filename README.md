@@ -1,5 +1,6 @@
 #DICOM Medical Imaging File Parser
 
+DICOM medical imaging format decoder
 
 ##Example
 
