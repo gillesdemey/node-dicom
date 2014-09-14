@@ -1,12 +1,13 @@
-var Parser = require('./lib/parser.js');
+'use strict';
 
-exports.parse = function(buffer) {
+var Decoder = require('./lib/decoder.js');
+
+exports.decode = function(buffer) {
 
   // create parser object
-  var parser = new Parser(buffer);
+  var decoder = new Decoder(buffer);
 
   // parse the file for info
-  file = parser.parse();
-
+  var file = decoder.decode();
   return file;
 };

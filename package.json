@@ -11,5 +11,8 @@
     "medical"
   ],
   "author": "Gilles De Mey <gilles.de.mey@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dicom": "^0.3.0"
+  }
 }
